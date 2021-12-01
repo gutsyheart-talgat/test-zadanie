@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header'
+import Form from './components/Form'
+import Shtraf from './components/Shtraf';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+function App({success}) {
+  
+  return ( 
+    <div className="background">
+      <Header/>
+      <p className="info">Получение информации о штрафе по УИН</p>
+      <Form/>
+       <Shtraf/>
     </div>
   );
 }
 
-export default App;
+export default App
