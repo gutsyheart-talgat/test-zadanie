@@ -1,0 +1,15 @@
+.back{
+    margin: 50px 0 0 290px;
+}
+.back div{
+    width: 77px;
+    height: 77px;
+}
+.back p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    font-family:  'Roboto', sans-serif;
+}

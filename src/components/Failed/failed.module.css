@@ -1,0 +1,17 @@
+.back{
+    margin: 40px 0 0 260px;
+}
+.back img{
+    width: 92px;
+    height: 92px;
+    margin-left: 23px;
+    margin-bottom: 24px;
+}
+.back h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    font-family:  'Roboto', sans-serif;
+}

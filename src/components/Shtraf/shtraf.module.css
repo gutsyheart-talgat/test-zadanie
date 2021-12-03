@@ -1,0 +1,32 @@
+.shtrafList{
+    width: 685px;
+    height: 369px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+    margin-top: 22px;
+}
+.shtrafInfo{
+    padding-top: 22px;
+    padding-left: 15px;
+}
+.h1{
+    font-family:  'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.shtraf{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.shtraf p{
+    margin: 4px 10px 0 0;
+    font-family:  'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
